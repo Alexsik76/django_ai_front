@@ -1,7 +1,7 @@
 <template>
     <v-main>
       <div class="pa-4">
-        <p>Teachers</p>
+        <p>Tasks</p>
       </div>
     </v-main>
 </template>
