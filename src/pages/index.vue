@@ -17,7 +17,7 @@
     <v-app-bar border="b" class="ps-4" flat>
       <v-app-bar-nav-icon v-if="$vuetify.display.smAndDown" @click="drawer = !drawer" />
 
-      <v-app-bar-title>Application33</v-app-bar-title>
+      <v-app-bar-title>Application23</v-app-bar-title>
 
       <template #append>
         <v-btn class="text-none me-2" height="48" icon slim>
@@ -51,6 +51,7 @@
 <script setup>
   import { ref } from 'vue'
 
+
   const drawer = ref(true)
 
   const items = ref([
@@ -58,6 +59,8 @@
       title: 'Dashboard',
       prependIcon: 'mdi-view-dashboard-outline',
       link: true,
+      href: '/teachers'
+     
     },
     {
       title: 'Team',
