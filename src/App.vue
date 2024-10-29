@@ -1,7 +1,7 @@
 <template>
   <v-layout>
     <v-navigation-drawer v-model="drawer">
-      <v-list density="compact" item-props :items="items" nav />
+      <v-list density="comfortable" item-props :items="items" nav />
       <template #append>
         <v-list-item
           class="ma-2"
@@ -14,7 +14,7 @@
     </v-navigation-drawer>
     <v-app-bar border="b" class="ps-4" flat>
       <v-app-bar-nav-icon v-if="$vuetify.display.smAndDown" @click="drawer = !drawer" />
-      <v-app-bar-title>Application23</v-app-bar-title>
+      <v-app-bar-title class="text-h6 text-md-h5 text-lg-h4">Демонстраційний WEB застосунок</v-app-bar-title>
       <template #append>
         <v-btn class="text-none me-2" height="48" icon slim>
           <v-avatar color="surface-light" image="https://cdn.vuetifyjs.com/images/john.png" size="32" />
