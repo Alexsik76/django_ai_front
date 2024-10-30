@@ -73,6 +73,6 @@
     font-size: large !important;
   }
 
-};
+}
 </style>
 

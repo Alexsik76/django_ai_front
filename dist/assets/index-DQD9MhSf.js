@@ -1,0 +1,1 @@
+import{_ as o}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as r,o as t,w as s,a as e}from"./index-n_dIM_x7.js";import{V as n}from"./VMain-DtErTGGZ.js";const c={};function i(f,a){return t(),r(n,null,{default:s(()=>a[0]||(a[0]=[e("div",{class:"pa-4"},[e("p",null,"Main")],-1)])),_:1})}const d=o(c,[["render",i]]);export{d as default};
