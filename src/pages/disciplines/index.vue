@@ -36,6 +36,7 @@
 </template>
 <script setup>
 import { useFetch } from '@vueuse/core'
-const url = "https://ai.zpi-zp31.vn.ua/api/disciplines/"
+const base_url = import.meta.env.VITE_API_URL
+const url = `${base_url}disciplines/`
 const { isFetching, error, data } = useFetch(url).get().json()
 </script>

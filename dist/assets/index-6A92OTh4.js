@@ -1,0 +1,1 @@
+import{V as n}from"./VMain-C-HGlw_A.js";import{c,w as l,o as f,a as s}from"./index-OSqwQIPn.js";const _=(e,t)=>{const o=e.__vccOpts||e;for(const[a,r]of t)o[a]=r;return o},i={};function p(e,t){return f(),c(n,null,{default:l(()=>t[0]||(t[0]=[s("div",{class:"pa-4"},[s("p",null,"Tasks")],-1)])),_:1})}const m=_(i,[["render",p]]);export{m as default};
