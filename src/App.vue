@@ -1,7 +1,7 @@
 <template>
   <v-layout>
     <v-navigation-drawer v-model="drawer">
-      <v-list density="comfortable" item-props :items="items" nav />
+      <v-list density="comfortable" class="text-h5 mt-10" item-props :items="items" nav />
       <template #append>
         <v-list-item
           class="ma-2"
@@ -12,7 +12,7 @@
         />
       </template>
     </v-navigation-drawer>
-    <v-app-bar border="b" class="ps-4" flat>
+    <v-app-bar class="ps-4" flat>
       <v-app-bar-nav-icon v-if="$vuetify.display.smAndDown" @click="drawer = !drawer" />
       <v-app-bar-title class="text-h6 text-md-h5 text-lg-h4">Демонстраційний WEB застосунок</v-app-bar-title>
       <template #append>
@@ -37,25 +37,25 @@
 
   const items = ref([
     {
-      title: 'Home',
+      title: 'Головна сторінка',
       prependIcon: 'mdi-view-dashboard-outline',
       link: true,
       href: '/'
     },
     {
-      title: 'Teachers',
+      title: 'Викладачі',
       prependIcon: 'mdi-account-group',
       link: true,
       href: '/teachers'
     },
     {
-      title: 'Disciplines',
+      title: 'Предмети',
       prependIcon: 'mdi-briefcase-outline',
       link: true,
       href: '/disciplines'
     },
     {
-      title: 'Tasks',
+      title: 'Завдання',
       prependIcon: 'mdi-calendar',
       link: true,
       href: '/tasks'
@@ -67,5 +67,12 @@
     },
   ])
 </script>
+<style>
+.v-navigation-drawer--left{
+  .v-list-item-title{
+    font-size: large !important;
+  }
 
+};
+</style>
 
